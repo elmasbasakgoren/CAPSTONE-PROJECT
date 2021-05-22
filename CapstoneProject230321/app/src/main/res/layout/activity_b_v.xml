@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/krem"
+    tools:context=".BVActivity">
+
+    <View
+        android:id="@+id/headBorderV"
+        android:layout_width="208dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="91dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="112dp"
+        android:background="@drawable/head" />
+
+    <View
+        android:id="@+id/line_1"
+        android:layout_width="117dp"
+        android:layout_height="27dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="142dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="161dp"
+        android:background="@drawable/line" />
+
+    <View
+        android:id="@+id/line_2"
+        android:layout_width="117dp"
+        android:layout_height="27dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="277dp"
+        android:layout_marginEnd="174dp"
+        android:background="@drawable/line" />
+
+    <View
+        android:id="@+id/line_3"
+        android:layout_width="117dp"
+        android:layout_height="27dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="126dp"
+        android:layout_marginTop="475dp"
+        android:layout_marginEnd="168dp"
+        android:background="@drawable/line" />
+
+
+    <TextView
+        android:id="@+id/head_text"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="681dp"
+        android:text="BORDER VIOLATIONS"
+        android:textColor="#533935" />
+
+    <TextView
+        android:id="@+id/text_Today"
+        android:layout_width="67dp"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginBottom="616dp"
+        android:text="Today"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/text_Yesterday"
+        android:layout_width="67dp"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="279dp"
+        android:layout_marginEnd="186dp"
+        android:layout_marginBottom="428dp"
+        android:text="Yesterday"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/text_ThisWeek"
+        android:layout_width="67dp"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="478dp"
+        android:layout_marginEnd="183dp"
+        android:layout_marginBottom="229dp"
+        android:text="This Week"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/today_data"
+        android:layout_width="261dp"
+        android:layout_height="81dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="518dp"
+        android:text="TARIH SAAT"
+        android:textColor="#533935" />
+
+    <TextView
+        android:id="@+id/thisWeek_data"
+        android:layout_width="258dp"
+        android:layout_height="81dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="516dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="134dp"
+        android:text="TARIH SAAT"
+        android:textColor="#533935" />
+
+    <TextView
+        android:id="@+id/Yesterday_data"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="326dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="325dp"
+        android:text="TARIH SAAT"
+        android:textColor="#533935" />
+
+</RelativeLayout>

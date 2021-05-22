@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/krem"
+    tools:context=".ReportActivityMonthly">
+
+    <TextView
+        android:id="@+id/headReportMonthly"
+        android:layout_width="208dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="104dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="99dp"
+        android:gravity="center"
+        android:text="OTHERS REPORT"
+        android:background="@drawable/head"
+        android:textColor="#533935" />
+
+    <Button
+        android:id="@+id/weeklyReport"
+        android:layout_width="117dp"
+        android:layout_height="27dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="254dp"
+        android:gravity="center"
+        android:text="Daıly"
+        android:textColor="#000000"
+        android:background="@drawable/line" />
+
+    <Button
+        android:id="@+id/montlyReport"
+        android:layout_width="117dp"
+        android:layout_height="27dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="239dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/gri"
+        android:gravity="center"
+        android:text="Others"
+        android:textColor="#000000"
+        />
+    <Button
+        android:id="@+id/backToMenu2"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="335dp"
+        android:background="@drawable/backto"
+        android:gravity="center"
+        android:text="back"
+        android:textColor="#000000"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/backgroundtv" />
+
+    <TextView
+        android:id="@+id/monthlyReportText1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginStart="60dp"
+        android:gravity="center"
+        android:textColor="#000000"/>
+
+    <fragment
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:id="@+id/map"
+        tools:context=".ReportActivityMonthly"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        />
+
+</RelativeLayout>

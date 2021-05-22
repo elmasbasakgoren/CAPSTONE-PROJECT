@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <View
+        android:id="@+id/lilac_wallp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/yapraklar" />
+
+    <Button
+        android:id="@+id/buttonBorderViolation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginRight="76dp"
+        android:background="@drawable/mainbuttons"
+        android:text="Border Violatıon"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonReport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Report"
+        android:textColor="#fff"
+        android:layout_marginLeft="76dp"
+        android:layout_marginRight="76dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/mainbuttons"/>
+
+    <Button
+        android:id="@+id/buttonTOTO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Turn On / Turn Off"
+        android:textColor="#fff"
+        android:layout_marginLeft="76dp"
+        android:layout_marginRight="76dp"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/mainbuttons"/>
+
+    <Button
+        android:id="@+id/buttonMakeComplaints"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Make Complaınts"
+        android:textColor="#fff"
+        android:layout_marginLeft="76dp"
+        android:layout_marginRight="76dp"
+        android:layout_marginTop="520dp"
+        android:background="@drawable/mainbuttons"/>
+
+    <Button
+        android:id="@+id/buttonLogOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="log out"
+        android:textColor="#fff"
+        android:layout_marginLeft="76dp"
+        android:layout_marginRight="76dp"
+        android:layout_marginTop="620dp"
+        android:background="@drawable/mainbuttons"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="157.5dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="157.5dp"
+        android:src="@drawable/logo"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="4dp" />
+
+
+
+
+
+</RelativeLayout>
